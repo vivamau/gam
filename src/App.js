@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
-import Header from './js/components/Header'
-import PageHeader from './js/components/PageHeader'
-import NavigationHomePage from './js/components/Navigation'
-import ContentHomePage from './js/components/Content'
+import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
+
+import Header from './js/components/Header';
+import PageHeader from './js/components/PageHeader';
+import NavigationHomePage from './js/components/Navigation';
+import ContentHomePage from './js/components/Content/HomePage';
+import ContentCSP from './js/components/Content/CSP'
 class App extends Component {
   render() {
     return (
@@ -15,10 +18,17 @@ class App extends Component {
               <NavigationHomePage/>
             </div>
             <div className="col-sm-9">
-              <ContentHomePage/>
+            <BrowserRouter>
+              <Switch>
+                <Route path="/" exact component={ContentHomePage} />
+                <Route path="/csp" exact component={ContentCSP} />
+              </Switch>
+            </BrowserRouter>
             </div>
           </div>
         </div>
+        
+
       </div>
     );
   }
