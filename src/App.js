@@ -15,7 +15,11 @@ class App extends Component {
           <PageHeader/>
           <div className="row">
             <div className="col-sm-3">
-              <NavigationHomePage/>
+            <BrowserRouter>
+              <Switch>
+                <Route path="/" exact component={NavigationHomePage} />
+              </Switch>
+            </BrowserRouter>
             </div>
             <div className="col-sm-9">
             <BrowserRouter>
