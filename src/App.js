@@ -3,7 +3,10 @@ import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
 
 import Header from './js/components/Header';
 import PageHeader from './js/components/PageHeader';
-import NavigationHomePage from './js/components/Navigation';
+
+import NavigationHomePage from './js/components/Navigation/HomePage';
+import NavigationCSP from './js/components/Navigation/CSP'
+
 import ContentHomePage from './js/components/Content/HomePage';
 import ContentCSP from './js/components/Content/CSP'
 class App extends Component {
@@ -18,6 +21,7 @@ class App extends Component {
             <BrowserRouter>
               <Switch>
                 <Route path="/" exact component={NavigationHomePage} />
+                <Route path="/csp" exact component={NavigationCSP}/>
               </Switch>
             </BrowserRouter>
             </div>
