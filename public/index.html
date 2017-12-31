@@ -34,4 +34,24 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script src="%PUBLIC_URL%/assets/js/jquery.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/vendors/js/bootstrap-switch.min.js"></script>
+  <script>
+    var $scrollingDiv = $(".menu-workflow");
+    $("[name='info']").bootstrapSwitch();
+    $(window).scroll(function(){     
+        if ($(window).scrollTop()>220) {
+            $scrollingDiv
+                .stop()
+                .css("position",'fixed' )  
+                .css("top",'30px' ) 
+                .animate("slow");          
+        } else {
+        $scrollingDiv
+                .css("position",'' )    
+                .css("top",'' )             
+        }
+    });
+  </script>
 </html>
