@@ -28,10 +28,10 @@ class App extends Component {
                 <Route path="/csp" exact component={NavigationCSP}/>
                 <Route path="/identity" exact component={NavigationIdentity}/>
               </Switch>
-            </BrowserRouter basename={process.env.PUBLIC_URL}>
+            </BrowserRouter>
             </div>
             <div className="col-sm-9">
-            <BrowserRouter>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
               <Switch>
                 <Route path="/" exact component={ContentHomePage} />
                 <Route path="/csp" exact component={ContentCSP} />
