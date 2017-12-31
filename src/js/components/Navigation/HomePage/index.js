@@ -4,8 +4,8 @@ class NavigationHomePage extends Component {
     render () {
         return (
             <div className="menu-workflow">
-                <h3 className="text-uppercase workflow-title"><a href="/csp">Country Strategic Plan</a></h3>
-                <h3 className="text-uppercase workflow-title"><a href="identity.html">Identifying Information</a></h3>
+                <h3 className="text-uppercase workflow-title"><a href="csp">Country Strategic Plan</a></h3>
+                <h3 className="text-uppercase workflow-title"><a href="identity">Identifying Information</a></h3>
                 <h3 className="text-uppercase workflow-title">Design</h3>
                 <h3 className="text-uppercase workflow-title">Monitoring</h3>
                 <h3 className="text-uppercase workflow-title">Results</h3>
