@@ -1,0 +1,75 @@
+body {
+  font-family:Lato, sans-serif;
+}
+
+.menu-workflow {
+  position: fixed;
+}
+
+
+.menu-workflow li {
+  list-style:none;
+  padding:5px 0;
+  border-bottom:1px solid #EEE;
+}
+
+.menu-workflow h3.workflow-title {
+  text-transform: uppercase;
+  border-bottom: 1px solid #EEE;
+  padding-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.menu-workflow a, li a,.menu-workflow h3.workflow-title a {
+  border-bottom: 0;
+}
+
+.navbar {
+  border-radius: 0px;
+  background-color: #2a93fc;
+  height: 80px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.navbar li.user {
+  width: 200px;
+  text-align: right;
+}
+ .navbar li a{
+  color: #fff;
+  height: 79px;
+  line-height: 40px;
+  padding-top: 15px;
+ }
+ .navbar li a:hover {
+   background: #0374e6;
+ }
+.navbar-header a.navbar-brand {
+  color: white;
+}
+ .userAvatar {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 16px;
+  left: 10px;
+  border-radius: 20px;
+ }
+
+ small.note {
+   color: #999;
+   font-style: italic;
+ }
+
+ .internal-form {
+   padding: 10px;
+   background: #eef6ff;
+   border: 1px solid #ddd;
+   border-top: 0;
+ }
+
+ .nav-tabs>li.active>a,.nav-tabs>li.active>a:hover {
+   background: #eef6ff;
+   font-weight: bold;
+ }
