@@ -22,7 +22,7 @@ class App extends Component {
           <PageHeader/>
           <div className="row">
             <div className="col-sm-3">
-            <BrowserRouter>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
               <Switch>
                 <Route path="/" exact component={NavigationHomePage} />
                 <Route path="/csp" exact component={NavigationCSP}/>
@@ -31,7 +31,7 @@ class App extends Component {
             </BrowserRouter>
             </div>
             <div className="col-sm-9">
-            <BrowserRouter>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
               <Switch>
                 <Route path="/" exact component={ContentHomePage} />
                 <Route path="/csp" exact component={ContentCSP} />
