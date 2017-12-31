@@ -22,13 +22,13 @@ class App extends Component {
           <PageHeader/>
           <div className="row">
             <div className="col-sm-3">
-            <BrowserRouter>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
               <Switch>
                 <Route path="/" exact component={NavigationHomePage} />
                 <Route path="/csp" exact component={NavigationCSP}/>
                 <Route path="/identity" exact component={NavigationIdentity}/>
               </Switch>
-            </BrowserRouter>
+            </BrowserRouter basename={process.env.PUBLIC_URL}>
             </div>
             <div className="col-sm-9">
             <BrowserRouter>
