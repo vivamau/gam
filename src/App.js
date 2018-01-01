@@ -31,7 +31,7 @@ class App extends Component {
             </BrowserRouter>
             </div>
             <div className="col-sm-9">
-            <BrowserRouter basename={process.env.PUBLIC_URL}>
+            <BrowserRouter>
               <Switch>
                 <Route path={process.env.PUBLIC_URL  + "/"} exact component={ContentHomePage} />
                 <Route path={process.env.PUBLIC_URL  + "/csp"} exact component={ContentCSP} />
