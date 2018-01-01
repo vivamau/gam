@@ -22,20 +22,20 @@ class App extends Component {
           <PageHeader/>
           <div className="row">
             <div className="col-sm-3">
-            <BrowserRouter>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
               <Switch>
-                <Route path={process.env.PUBLIC_URL + '/'} exact component={NavigationHomePage} />
-                <Route path={process.env.PUBLIC_URL + '/csp'} exact component={NavigationCSP}/>
-                <Route path={process.env.PUBLIC_URL + '/identity'} exact component={NavigationIdentity}/>
+                <Route path="/" exact component={NavigationHomePage} />
+                <Route path="/csp" exact component={NavigationCSP}/>
+                <Route path="identity" exact component={NavigationIdentity}/>
               </Switch>
             </BrowserRouter>
             </div>
             <div className="col-sm-9">
-            <BrowserRouter>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
               <Switch>
-                <Route path={process.env.PUBLIC_URL + '/'} exact component={ContentHomePage} />
-                <Route path={process.env.PUBLIC_URL + '/csp'} exact component={ContentCSP} />
-                <Route path={process.env.PUBLIC_URL + '/identity'} exact component={ContentIdentity}/>
+                <Route path="/" exact component={ContentHomePage} />
+                <Route path="/csp" exact component={ContentCSP} />
+                <Route path="identity" exact component={ContentIdentity}/>
               </Switch>
             </BrowserRouter>
             </div>
