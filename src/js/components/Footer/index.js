@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 const FormHeader = (props) => {
     return (
+            <div class="row">
             <footer className="wfp-footer">            
                 <div className="wfp-grid wfp-wrapper pv2">
                     <div className="wfp-u-1 wfp-u-md-1-3 tc tl-md">
@@ -16,6 +17,7 @@ const FormHeader = (props) => {
                     </div>
                 </div>
             </footer>
+            </div>
     )
 }
 
