@@ -10,9 +10,7 @@ const FormHeader = (props) => {
                     </div>
                     <div className="wfp-u-1 wfp-u-md-2-3 tc tr-md">
                         <ul className="nl fs6 mv2 pa0">
-                        <li className="dib ma0 ml1"><a href="#">Donate</a></li>
-                        <li className="dib ma0 ml1"><a href="#">Privacy</a></li>
-                        <li className="dib ma0 ml1"><a href="#">Terms of Use</a></li>
+                        <li className="dib ma0 ml1">This is a POC with no real data</li>
                         </ul>
                     </div>
                 </div>
