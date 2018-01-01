@@ -24,7 +24,7 @@ class App extends Component {
             <div className="col-sm-3">
             <BrowserRouter>
               <Switch>
-                <Route path={process.env.PUBLIC_URL + '/'}  exact component={NavigationHomePage} />
+                <Route path={process.env.PUBLIC_URL + '/'} exact component={NavigationHomePage} />
                 <Route path={process.env.PUBLIC_URL + '/csp'} exact component={NavigationCSP}/>
                 <Route path={process.env.PUBLIC_URL + '/identity'} exact component={NavigationIdentity}/>
               </Switch>
