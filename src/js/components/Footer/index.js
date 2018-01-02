@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 const FormHeader = (props) => {
     return (
       <div class="container">
+        <hr/>
         <footer className="wfp-footer">  
             <div class="row">
                 <div class="col-md-6">          
