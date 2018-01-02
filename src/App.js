@@ -8,10 +8,12 @@ import Footer from './js/components/Footer'
 import NavigationHomePage from './js/components/Navigation/HomePage';
 import NavigationCSP from './js/components/Navigation/CSP';
 import NavigationIdentity from './js/components/Navigation/Identity';
+import NavigationDesign from './js/components/Navigation/Design';
 
 import ContentHomePage from './js/components/Content/HomePage';
 import ContentCSP from './js/components/Content/CSP';
 import ContentIdentity from './js/components/Content/Identity';
+import ContentDesign from './js/components/Content/Design';
 
 class App extends Component {
   render() {
@@ -27,6 +29,7 @@ class App extends Component {
                 <Route path={process.env.PUBLIC_URL + "/"} exact component={NavigationHomePage} />
                 <Route path={process.env.PUBLIC_URL + "/csp"} exact component={NavigationCSP}/>
                 <Route path={process.env.PUBLIC_URL + "/identity"} exact component={NavigationIdentity}/>
+                <Route path={process.env.PUBLIC_URL + "/design"} exact component={NavigationDesign}/>
               </Switch>
             </BrowserRouter>
             </div>
@@ -36,6 +39,7 @@ class App extends Component {
                 <Route path={process.env.PUBLIC_URL + "/"} exact component={ContentHomePage} />
                 <Route path={process.env.PUBLIC_URL + "/csp"} exact component={ContentCSP} />
                 <Route path={process.env.PUBLIC_URL + "/identity"} exact component={ContentIdentity}/>
+                <Route path={process.env.PUBLIC_URL + "/design"} exact component={ContentDesign}/>
               </Switch>
             </BrowserRouter>
             </div>

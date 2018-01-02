@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import FormHeader from '../../Commons/FormHeaders/FormHeader'; 
-import FormHeaderMultiButtons from '../../Commons/FormHeaders/FormHeaderMultiButtons';
 import FormInputText from '../../Commons/FormInputText'
-import FormSelect from '../../Commons/FormSelect'
 
 class ContentIdentity extends Component {
     render () {
