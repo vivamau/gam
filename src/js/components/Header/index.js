@@ -15,14 +15,15 @@ class Header extends Component {
                     </div>
                     <div className="collapse navbar-collapse" id="navcol-1">
                         <ul className="nav navbar-nav">
-                            <li className="presentation"><a href="#">Information</a></li>
-                            <li role="presentation"><a href="#">Design</a></li>
-                            <li role="presentation"><a href="#">Monitoring</a></li>
+                            <li className="presentation"><a href="/">GaM</a></li>
                         </ul>
                         <ul className="nav navbar-nav navbar-right">
+                            <li className="presentation"><a href="/">About GaM</a></li>
                             <li className="user">
                                 <a href="#contact">
-                                    <img className="userAvatar" alt="Maurizio BLASILLI" src="http://gtd.wfp.org/media/pictures/auto/maurizio.blasilli@wfp.org.jpg"/>Hello, Maurizio!</a>
+                                    <img className="userAvatar" alt="Maurizio BLASILLI" src={process.env.PUBLIC_URL + "/assets/img/maurizio.blasilli@wfp.org.jpg"}/>
+                                    Hello, Maurizio!
+                                </a>
                             </li>
                         </ul>
                     </div>

@@ -14,20 +14,20 @@ class ContentCSP extends Component {
                 <FormInputText label="CSP Document Link" note="Add link to the CSP document" value="select a file" status="disable"/>
 
                 <div class="form-group">
-                    <label class="control-label col-sm-3">From Date<br/><small class="note">CSP starting date</small></label>
+                    <label class="control-label col-sm-3">Start Year<br/><small class="note">CSP starting year</small></label>
                     <div class="col-sm-3">
-                        <input type="date" required class="form-control" />
+                        <input type="text" required class="form-control" />
                     </div>
-                    <label class="control-label col-sm-3">To Date<br/><small class="note">CSP ending date</small></label>
+                    <label class="control-label col-sm-3">End Year<br/><small class="note">CSP ending year</small></label>
                     <div class="col-sm-3">
-                        <input type="date" required class="form-control" />
+                        <input type="text" required class="form-control" />
                     </div>
                 </div>
                 <FormInputText label="Number of years to Monitor" note="This number will affect the Identifying Information Section"/>
                 <hr/>
-                <FormHeaderMultiButtons titleH2="TICSP/ICSP/CSP Strategic Outcomes" titleSaveDate="yesterday">Define activities within this CSP</FormHeaderMultiButtons>
+                <FormHeaderMultiButtons titleH2="Strategic Outcome nr. 1" titleSaveDate="yesterday">Define activities within this CSP</FormHeaderMultiButtons>
                 <hr/>
-                <FormInputText label="Activity Description" note="This field is automatically filled by GAM. If you need to change it, please let me know"/>
+                <FormInputText label="Activity Title" note="This field is automatically filled by GAM. If you need to change it, please let me know"/>
                 <hr/>
                 <FormSelect/>
                 <hr/>
