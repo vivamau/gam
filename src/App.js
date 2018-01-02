@@ -14,6 +14,7 @@ import ContentHomePage from './js/components/Content/HomePage';
 import ContentCSP from './js/components/Content/CSP';
 import ContentIdentity from './js/components/Content/Identity';
 import ContentDesign from './js/components/Content/Design';
+import ContentDesignGenderAnalysis from './js/components/Content/Design/GenderAnalysis';
 
 class App extends Component {
   render() {
@@ -30,6 +31,7 @@ class App extends Component {
                 <Route path={process.env.PUBLIC_URL + "/csp"} exact component={NavigationCSP}/>
                 <Route path={process.env.PUBLIC_URL + "/identity"} exact component={NavigationIdentity}/>
                 <Route path={process.env.PUBLIC_URL + "/design"} exact component={NavigationDesign}/>
+                <Route path={process.env.PUBLIC_URL + "/design/genderanalysis"} exact component={NavigationDesign}/>
               </Switch>
             </BrowserRouter>
             </div>
@@ -40,6 +42,7 @@ class App extends Component {
                 <Route path={process.env.PUBLIC_URL + "/csp"} exact component={ContentCSP} />
                 <Route path={process.env.PUBLIC_URL + "/identity"} exact component={ContentIdentity}/>
                 <Route path={process.env.PUBLIC_URL + "/design"} exact component={ContentDesign}/>
+                <Route path={process.env.PUBLIC_URL + "/design/genderanalysis"} exact component={ContentDesignGenderAnalysis}/>
               </Switch>
             </BrowserRouter>
             </div>

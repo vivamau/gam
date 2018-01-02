@@ -8,7 +8,7 @@ class NavigationDesign extends Component {
                 <h3 className="text-uppercase workflow-title"><a href="identity">Summary Information</a></h3>
                 <h3 className="text-uppercase workflow-title"><a href="design">Design</a></h3>
                 <ul>
-                    <li><a href="#">Gender Analysis</a></li>
+                    <li><a href="design/genderanalysis">Gender Analysis</a></li>
                     <li><a href="#">Taylored Activities</a></li>
                     <li><a href="#">Participations</a></li>
                     <li><a href="#agencyprj">Benefits</a></li>
