@@ -39,3 +39,4 @@ Thumbs.db
 # React folders
 #######################
 node_modules/
+build/
