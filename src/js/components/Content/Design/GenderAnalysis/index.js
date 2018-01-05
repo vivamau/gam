@@ -5,10 +5,12 @@ import FormHeader from '../../../Commons/FormHeaders/FormHeader';
 
 const labels = ["A gender and age analysis","A gender analysis", "An age analysis", "Neither a gender nor age analysis"];
 const single = ["yes/no"];
-class ContentDesign extends Component {
+class ContentDesignGenderAnalysis extends Component {
     render () {
         return ( 
             <div>
+                <h1>Gender Analysis</h1>
+                <hr/>
                 <FormHeader titleH2="1. Integrated throughout the planning document (TICSP, ICSP, CSP) there is: " titleSaveDate="yesterday">Please select the applicable option</FormHeader>
                 <hr/>
                 <FormRadio values={labels}/>
@@ -94,4 +96,4 @@ class ContentDesign extends Component {
         )
     }
 }
-export default ContentDesign;
+export default ContentDesignGenderAnalysis;

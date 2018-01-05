@@ -41,6 +41,7 @@ body {
   height: 79px;
   line-height: 40px;
   padding-top: 15px;
+  margin-top: -3px;
  }
  .navbar li a:hover {
    background: #0374e6;
@@ -73,3 +74,35 @@ body {
    background: #eef6ff;
    font-weight: bold;
  }
+
+ .text-area {
+   width: 100%;
+   border: 1px solid #ddd;
+   padding-bottom: 30px;
+ }
+
+ th {
+   background: #eef6ff;
+ }
+
+ input[type=checkbox] {
+  -moz-appearance: checkbox;
+  -webkit-appearance: none;
+  display: inline-block;
+  border: 0;
+  margin-right: .25em;
+  margin-bottom: 3px;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  vertical-align: middle;
+  -webkit-transition: background .15s ease-in;
+  transition: background .15s ease-in;
+}
+input[type=checkbox] {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KPHBhdGggZD0iTTE5IDV2MTRoLTE0di0xNGgxNHpNMTkgM2gtMTRjLTEuMSAwLTIgMC45LTIgMnYxNGMwIDEuMSAwLjkgMiAyIDJoMTRjMS4xIDAgMi0wLjkgMi0ydi0xNGMwLTEuMS0wLjktMi0yLTJ6IiBmaWxsPSIjMjMyMzIzIi8+Cjwvc3ZnPgo=);
+}
+
+input[type=checkbox]:checked {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KPHBhdGggZD0iTTE5IDNoLTE0Yy0xLjExIDAtMiAwLjktMiAydjE0YzAgMS4xIDAuODkgMiAyIDJoMTRjMS4xMSAwIDItMC45IDItMnYtMTRjMC0xLjEtMC44OS0yLTItMnpNMTAgMTdsLTUtNSAxLjQxLTEuNDEgMy41OSAzLjU4IDcuNTktNy41OSAxLjQxIDEuNDItOSA5eiIgZmlsbD0iIzAzNzRlNiIvPgo8L3N2Zz4K);
+}
