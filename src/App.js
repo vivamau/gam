@@ -16,6 +16,8 @@ import ContentIdentity from './js/components/Content/Identity';
 import ContentDesign from './js/components/Content/Design';
 import ContentDesignGenderAnalysis from './js/components/Content/Design/GenderAnalysis';
 import ContentDesignTayloredActivities from './js/components/Content/Design/TayloredActivities';
+import ContentDesignParticipations from './js/components/Content/Design/Participations';
+import ContentDesignBenefits from './js/components/Content/Design/Benefits';
 
 class App extends Component {
   render() {
@@ -31,9 +33,7 @@ class App extends Component {
                 <Route path={process.env.PUBLIC_URL + "/"} exact component={NavigationHomePage} />
                 <Route path={process.env.PUBLIC_URL + "/csp"} exact component={NavigationCSP}/>
                 <Route path={process.env.PUBLIC_URL + "/identity"} exact component={NavigationIdentity}/>
-                <Route path={process.env.PUBLIC_URL + "/design"} exact component={NavigationDesign}/>
-                <Route path={process.env.PUBLIC_URL + "/design/genderanalysis"} exact component={NavigationDesign}/>
-                <Route path={process.env.PUBLIC_URL + "/design/tayloredactivities"} exact component={NavigationDesign}/>
+                <Route path={process.env.PUBLIC_URL + "/design"} component={NavigationDesign}/>
               </Switch>
             </BrowserRouter>
             </div>
@@ -46,6 +46,8 @@ class App extends Component {
                 <Route path={process.env.PUBLIC_URL + "/design"} exact component={ContentDesign}/>
                 <Route path={process.env.PUBLIC_URL + "/design/genderanalysis"} exact component={ContentDesignGenderAnalysis}/>
                 <Route path={process.env.PUBLIC_URL + "/design/tayloredactivities"} exact component={ContentDesignTayloredActivities}/>
+                <Route path={process.env.PUBLIC_URL + "/design/participations"} exact component={ContentDesignParticipations}/>
+                <Route path={process.env.PUBLIC_URL + "/design/benefits"} exact component={ContentDesignBenefits}/>
               </Switch>
             </BrowserRouter>
             </div>

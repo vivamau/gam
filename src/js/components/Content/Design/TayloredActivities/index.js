@@ -4,7 +4,7 @@ import FormTextArea from '../../../Commons/FormTextArea';
 import FormHeader from '../../../Commons/FormHeaders/FormHeader'; 
 
 const labels = ["Gender and Age","Gender", "Age", "Neither gender nor age"];
-const single = ["yes/no"];
+
 class ContentDesignTayloredActivities extends Component {
     render () {
         return ( 

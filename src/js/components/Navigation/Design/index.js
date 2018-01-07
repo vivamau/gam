@@ -10,8 +10,8 @@ class NavigationDesign extends Component {
                 <ul>
                     <li><a href="../design/genderanalysis">Gender Analysis</a></li>
                     <li><a href="../design/tayloredactivities">Taylored Activities</a></li>
-                    <li><a href="#">Participations</a></li>
-                    <li><a href="#agencyprj">Benefits</a></li>
+                    <li><a href="../design/participations">Participations</a></li>
+                    <li><a href="../design/benefits">Benefits</a></li>
                 </ul>
                 <h3 className="text-uppercase workflow-title">Monitoring</h3>
                 <h3 className="text-uppercase workflow-title">GaM Code</h3>
