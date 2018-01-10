@@ -14,6 +14,4 @@ function FormRadio(props) {
     );
   }
 
-
-
 export default FormRadio;

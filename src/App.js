@@ -15,8 +15,8 @@ import ContentCSP from './js/components/Content/CSP';
 import ContentIdentity from './js/components/Content/Identity';
 import ContentDesign from './js/components/Content/Design';
 import ContentDesignGenderAnalysis from './js/components/Content/Design/GenderAnalysis';
-import ContentDesignTayloredActivities from './js/components/Content/Design/TayloredActivities';
-import ContentDesignParticipations from './js/components/Content/Design/Participations';
+import ContentDesignTailoredActivities from './js/components/Content/Design/TailoredActivities';
+import ContentDesignParticipation from './js/components/Content/Design/Participation';
 import ContentDesignBenefits from './js/components/Content/Design/Benefits';
 
 class App extends Component {
@@ -45,8 +45,8 @@ class App extends Component {
                 <Route path={process.env.PUBLIC_URL + "/identity"} exact component={ContentIdentity}/>
                 <Route path={process.env.PUBLIC_URL + "/design"} exact component={ContentDesign}/>
                 <Route path={process.env.PUBLIC_URL + "/design/genderanalysis"} exact component={ContentDesignGenderAnalysis}/>
-                <Route path={process.env.PUBLIC_URL + "/design/tayloredactivities"} exact component={ContentDesignTayloredActivities}/>
-                <Route path={process.env.PUBLIC_URL + "/design/participations"} exact component={ContentDesignParticipations}/>
+                <Route path={process.env.PUBLIC_URL + "/design/tailoredactivities"} exact component={ContentDesignTailoredActivities}/>
+                <Route path={process.env.PUBLIC_URL + "/design/participation"} exact component={ContentDesignParticipation}/>
                 <Route path={process.env.PUBLIC_URL + "/design/benefits"} exact component={ContentDesignBenefits}/>
               </Switch>
             </BrowserRouter>

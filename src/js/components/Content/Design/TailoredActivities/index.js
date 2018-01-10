@@ -5,16 +5,16 @@ import FormHeader from '../../../Commons/FormHeaders/FormHeader';
 
 const labels = ["Gender and Age","Gender", "Age", "Neither gender nor age"];
 
-class ContentDesignTayloredActivities extends Component {
+class ContentDesignTailoredActivities extends Component {
     render () {
         return ( 
             <div>
-                <h1>Taylored Activities</h1>
+                <h1>Tailored Activities</h1>
                 <hr/>
-                <FormHeader titleH2="1. The planned activities address inequalities related to:" titleSaveDate="yesterday">Please select the applicable option</FormHeader>
+                <FormHeader titleH2="8. The planned activities address inequalities related to:" titleSaveDate="yesterday">Please select the applicable option</FormHeader>
                 <hr/>
                 <FormRadio values={labels}/>
-                <FormHeader titleH2="2. For each CSP activity, indicate which gender and/or age groups are targeted, by selecting all that apply in the following tables: " titleSaveDate="yesterday">Please note that number of lines for each table depends on the number of activities specified at CSP definition</FormHeader>
+                <FormHeader titleH2="9. For each CSP activity, indicate which gender and/or age groups are targeted, by selecting all that apply in the following tables: " titleSaveDate="yesterday">Please note that number of lines for each table depends on the number of activities specified at CSP definition</FormHeader>
                 <hr/>
                 <table className="table table-bordered">
                     <thead>
@@ -194,7 +194,7 @@ class ContentDesignTayloredActivities extends Component {
                     </tbody>
                 </table>
                 <hr/>
-                <FormHeader titleH2="3. Please indicate in which paragraph of the document the gender analysis is presented." titleSaveDate="yesterday">You can also further explain the reasons for the answers provided to questions 1 and 2. </FormHeader>
+                <FormHeader titleH2="10. Please indicate in which paragraph of the document the gender analysis is presented." titleSaveDate="yesterday">You can also further explain the reasons for the answers provided to questions 1 and 2. </FormHeader>
                 <hr/>   
                 <div class="row">
                     <div class="col-sm-12">
@@ -207,4 +207,4 @@ class ContentDesignTayloredActivities extends Component {
         )
     }
 }
-export default ContentDesignTayloredActivities;
+export default ContentDesignTailoredActivities;

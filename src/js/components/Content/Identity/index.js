@@ -9,16 +9,15 @@ class ContentIdentity extends Component {
                 <FormHeader titleH2="Country Director" titleSaveDate="yesterday">Is this the Country Director?</FormHeader>
                 <hr/>
                 <FormInputText label="Name" note="This field is automatically filled by GAM. If you need to change it, please let me know" type="text"/>
-                <FormInputText label="Function" note="Possibly a list of functional areas to use" type="text"/>
-                <FormInputText label="Date" note="What does date mean?" type="date"/>
+                <FormInputText label="Date" type="date"/>
                 <hr/>
-                <FormHeader titleH2="GaM Design Completed by:" titleSaveDate="yesterday">information about the officer who is going to complete GAM</FormHeader>
+                <FormHeader titleH2="Design Phase GaM Completed by:" titleSaveDate="yesterday">information about the officer who is going to complete GAM</FormHeader>
                 <hr/>
                 <FormInputText label="Name" note="This field is automatically filled by GAM. If you need to change it, please let me know" value="Maurizio Blasilli" status="disable" type="text"/>
                 <FormInputText label="Function" note="Possibly a list of functional areas to use" type="text"/>
-                <FormInputText label="Date" note="What does date mean?" type="date"/>
+                <FormInputText label="Date" type="date"/>
                 <hr/>
-                <FormHeader titleH2="Monitoring Officers per year" titleSaveDate="yesterday">Number of years, is depending by the number of the years specified in the CSP section.</FormHeader>
+                <FormHeader titleH2="Monitoring" titleSaveDate="yesterday">Number of years, is depending by the number of the years specified in the CSP section.</FormHeader>
                 <div>
                     <ul className="nav nav-tabs" role="tablist">
                         <li role="presentation" className="active"><a href="#y1" aria-controls="y1" role="tab" data-toggle="tab">YEAR 1</a></li>
@@ -29,62 +28,42 @@ class ContentIdentity extends Component {
                     <div className="tab-content">
                         <div role="tabpanel" className="tab-pane active" id="y1">
                             <div className="internal-form">
-                                <h4>Person Completing GAM, Year 1</h4>
+                                <h4>Year 1 GaM Completed by</h4>
                                 <hr/>
                                 <FormInputText label="Name" note="This field is automatically filled by GAM. If you need to change it, please let me know" type="text"/>
                                 <FormInputText label="Function" note="Possibly a list of functional areas to use" type="text"/>
-                                <FormInputText label="Date" note="What does date mean?" type="date"/>
+                                <FormInputText label="Date" type="date"/>
                                 <hr/><br/>
-                                <h4>Person Reviewing GAM, Year 1</h4>
-                                <hr/>
-                                <FormInputText label="Name" note="This field is automatically filled by GAM. If you need to change it, please let me know" type="text"/>
-                                <FormInputText label="Function" note="Possibly a list of functional areas to use" type="text"/>
-                                <FormInputText label="Date" note="What does date mean?" type="date"/>
                             </div>
                         </div>
                         <div role="tabpanel" className="tab-pane" id="y2">
                             <div className="internal-form">
-                                <h4>Person Completing GAM, Year 2</h4>
+                                <h4>Year 2 GaM Completed by</h4>
                                 <hr/>
                                 <FormInputText label="Name" note="This field is automatically filled by GAM. If you need to change it, please let me know" type="text"/>
                                 <FormInputText label="Function" note="Possibly a list of functional areas to use" type="text"/>
-                                <FormInputText label="Date" note="What does date mean?" type="date"/>
+                                <FormInputText label="Date" type="date"/>
                                 <hr/><br/>
-                                <h4>Person Reviewing GAM, Year 2</h4>
-                                <hr/>
-                                <FormInputText label="Name" note="This field is automatically filled by GAM. If you need to change it, please let me know" type="text"/>
-                                <FormInputText label="Function" note="Possibly a list of functional areas to use" type="text"/>
-                                <FormInputText label="Date" note="What does date mean?" type="date"/>
                             </div>
                         </div>
                         <div role="tabpanel" className="tab-pane" id="y3">
                             <div className="internal-form">
-                                <h4>Person Completing GAM, Year 3</h4>
+                                <h4>Year 3 GaM Completed by</h4>
                                 <hr/>
                                 <FormInputText label="Name" note="This field is automatically filled by GAM. If you need to change it, please let me know" type="text"/>
                                 <FormInputText label="Function" note="Possibly a list of functional areas to use" type="text"/>
-                                <FormInputText label="Date" note="What does date mean?" type="date"/>
+                                <FormInputText label="Date" type="date"/>
                                 <hr/><br/>
-                                <h4>Person Reviewing GAM, Year 3</h4>
-                                <hr/>
-                                <FormInputText label="Name" note="This field is automatically filled by GAM. If you need to change it, please let me know" type="text"/>
-                                <FormInputText label="Function" note="Possibly a list of functional areas to use" type="text"/>
-                                <FormInputText label="Date" note="What does date mean?" type="date"/>
                             </div>
                         </div>
                         <div role="tabpanel" className="tab-pane" id="y4">
                             <div className="internal-form">
-                                <h4>Person Completing GAM, Year 4</h4>
+                                <h4>Year 4 GaM Completed by</h4>
                                 <hr/>
                                 <FormInputText label="Name" note="This field is automatically filled by GAM. If you need to change it, please let me know" type="text"/>
                                 <FormInputText label="Function" note="Possibly a list of functional areas to use" type="text"/>
-                                <FormInputText label="Date" note="What does date mean?" type="date"/>
+                                <FormInputText label="Date" type="date"/>
                                 <hr/><br/>
-                                <h4>Person Reviewing GAM, Year 4</h4>
-                                <hr/>
-                                <FormInputText label="Name" note="This field is automatically filled by GAM. If you need to change it, please let me know" type="text"/>
-                                <FormInputText label="Function" note="Possibly a list of functional areas to use" type="text"/>
-                                <FormInputText label="Date" note="What does date mean?" type="date"/>
                             </div>
                         </div>
                     </div>

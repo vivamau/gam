@@ -4,6 +4,8 @@ import FormHeaderMultiButtons from '../../Commons/FormHeaders/FormHeaderMultiBut
 import FormInputText from '../../Commons/FormInputText'
 import FormSelect from '../../Commons/FormSelect'
 
+const labels = ["URT, Unconditional resource transfers to support access to food","ACL, Asset creation and livelihood support activities", "CAR, Climate adaptation and risk management activities", "SMP, School meals activities", "NTA, Nutrition treatment activities" , "NPA, Malnutrition prevention activities", "SMS, Smallholder agricultural market support activities","CSB, Individual capacity strengthening activities","CSI, Institutional capacity strengthening activities","CPA, Service provision and platforms activities","EPA, Emergency preparedness activities","AAA, Analysis, assessment and monitoring activities","OTH, Other"];
+        
 class ContentCSP extends Component {
     render () {
         return (
@@ -25,11 +27,11 @@ class ContentCSP extends Component {
                 </div>
                 <FormInputText label="Number of years to Monitor" note="This number will affect the Identifying Information Section"/>
                 <hr/>
-                <FormHeaderMultiButtons titleH2="Strategic Outcome nr. 1" titleSaveDate="yesterday">Define activities within this CSP</FormHeaderMultiButtons>
+                <FormHeaderMultiButtons titleH2="Strategic Outcome 1" titleSaveDate="yesterday">Define activities within this CSP</FormHeaderMultiButtons>
                 <hr/>
-                <FormInputText label="Activity Title" note="This field is automatically filled by GAM. If you need to change it, please let me know"/>
+                <FormInputText label="CSP Activity"/>
                 <hr/>
-                <FormSelect/>
+                <FormSelect values={labels}/>
                 <hr/>
                 <div class="pull-right"><button class="wfp-btn--primary xlarge">Save and Go To Next Phase (Identifying)</button></div>
             </form>
