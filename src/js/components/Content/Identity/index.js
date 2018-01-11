@@ -6,10 +6,10 @@ class ContentIdentity extends Component {
     render () {
         return (
             <form className="form-horizontal">
-                <FormHeader titleH2="Country Director" titleSaveDate="yesterday">Is this the Country Director?</FormHeader>
+                <FormHeader titleH2="Country Director" titleSaveDate="yesterday"/>
                 <hr/>
                 <FormInputText label="Name" note="This field is automatically filled by GAM. If you need to change it, please let me know" type="text"/>
-                <FormInputText label="Date" type="date"/>
+                <FormInputText label="Approval Date" type="date"/>
                 <hr/>
                 <FormHeader titleH2="Design Phase GaM Completed by:" titleSaveDate="yesterday">information about the officer who is going to complete GAM</FormHeader>
                 <hr/>
@@ -69,7 +69,7 @@ class ContentIdentity extends Component {
                     </div>
                 </div>  
                 <hr/>                 
-                <div className="pull-right"><button className="wfp-btn--primary xlarge">Save and Go To Next Phase (Identifying)</button></div>
+                <div className="pull-right"><button className="wfp-btn--primary xlarge">Save</button></div>
             </form>
         )
       }

@@ -10,10 +10,10 @@ class ContentDesignBenefits extends Component {
             <div>
                 <h1>Benefits</h1>
                 <hr/>
-                <FormHeader titleH2="1. Does the planning document (TICSP/ICSP/CSP) clearly describe the activities that will contribute to achieving gender equality?: " titleSaveDate="yesterday">Please select the applicable option</FormHeader>
+                <FormHeader titleH2="14. Does the planning document (TICSP/ICSP/CSP) clearly describe the activities that will contribute to achieving gender equality? " titleSaveDate="yesterday">Please select the applicable option</FormHeader>
                 <hr/>
                 <FormRadio values={labels}/>
-                <FormHeader titleH2="2.  If yes, indicate which sex and/or age groups will benefit from the activities that will contribute to achieving gender equality: " titleSaveDate="yesterday"/>
+                <FormHeader titleH2="15.  If yes, indicate which sex and/or age groups will benefit from the activities that will contribute to achieving gender equality: " titleSaveDate="yesterday"/>
                 <hr/>
                 <table className="table table-bordered">
                     <thead>
@@ -70,15 +70,15 @@ class ContentDesignBenefits extends Component {
                     </tbody>
                 </table>
                 <hr/>
-                <FormHeader titleH2="3. Please indicate in which paragraph of the document evidence of your response can be found. You can also further explain the reasons for the answers provided to questions 1 and 2." titleSaveDate="yesterday">You can also further explain the reasons for the answers provided to questions 1 and 2. </FormHeader>
+                <FormHeader titleH2="16. Please indicate in which paragraph/s of the document evidence of your responses to questions 14 and 15 can be found." titleSaveDate="yesterday"></FormHeader>
                 <hr/>   
                 <div class="row">
                     <div class="col-sm-12">
-                        <FormTextArea label="Your Message" note="Please leave a message" rows="5"/>
+                        <FormTextArea label="You can also further explain the reasons for the answers provided to questions 14 and 15." rows="5"/>
                     </div>
                 </div>
                 <hr/>     
-                <div class="pull-right"><button class="wfp-btn--primary xlarge">Save and Go To Monitoring Phase</button></div>
+                <div class="pull-right"><button class="wfp-btn--primary xlarge">Save and view GaM Code</button></div>
             </div>
         )
     }

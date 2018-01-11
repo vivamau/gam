@@ -71,11 +71,11 @@ class ContentDesignGenderAnalysis extends Component {
                     </tbody>
                 </table>
                 <hr/>
-                <FormHeader titleH2="3. Please indicate in which paragraph of the document the gender analysis is presented." titleSaveDate="yesterday">You can also further explain the reasons for the answers provided to questions 1 and 2. </FormHeader>
+                <FormHeader titleH2="3. Please indicate in which paragraph/s of the document the gender analysis is presented." titleSaveDate="yesterday"></FormHeader>
                 <hr/>   
                 <div class="row">
                     <div class="col-sm-12">
-                        <FormTextArea label="Your Message" note="Please leave a message" rows="5"/>
+                        <FormTextArea label="You can also further explain the reasons for the answers provided to questions 1 and 2." rows="5"/>
                     </div>
                 </div>
                 <hr/>
@@ -91,7 +91,7 @@ class ContentDesignGenderAnalysis extends Component {
                 <FormHeader titleH2="7. Is there a stated commitment to allocate resources to gender equality activities?" titleSaveDate="yesterday"></FormHeader>
                 <hr/>    
                 <FormRadio values={single}/>     
-                <div class="pull-right"><button class="wfp-btn--primary xlarge">Save and Go Ahead (Taylored Activities)</button></div>
+                <div class="pull-right"><button class="wfp-btn--primary xlarge">Save and Go Ahead (Tailored Activities)</button></div>
             </div>
         )
     }

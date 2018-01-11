@@ -27,9 +27,13 @@ class ContentCSP extends Component {
                 </div>
                 <FormInputText label="Number of years to Monitor" note="This number will affect the Identifying Information Section"/>
                 <hr/>
-                <FormHeaderMultiButtons titleH2="Strategic Outcome 1" titleSaveDate="yesterday">Define activities within this CSP</FormHeaderMultiButtons>
+                <FormInputText label="CSP Activity #"/>
+                <hr/>
+                <FormHeaderMultiButtons titleH2="Strategic Outcome 1" titleSaveDate="yesterday" btn1="SAVE AS DRAFT" btn2="ADD STRATEGIC OUTCOME">Define activities within this CSP</FormHeaderMultiButtons>
                 <hr/>
                 <FormInputText label="CSP Activity"/>
+                <hr/>
+                <FormInputText label="CSP Activity #"/>
                 <hr/>
                 <FormSelect values={labels}/>
                 <hr/>
