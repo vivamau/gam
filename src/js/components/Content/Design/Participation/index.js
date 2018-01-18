@@ -26,7 +26,7 @@ class ContentDesignParticipation extends Component {
                     </thead>
                     <tbody>
                         <tr>
-                            <th className="text-right">3-17 years</th>
+                            <th className="text-right">12-17 years</th>
                             <td className="text-center"><input type="checkbox"/></td>
                             <td className="text-center"><input type="checkbox"/></td>
                             <td className="text-center"><input type="checkbox"/></td>
